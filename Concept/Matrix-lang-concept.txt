@@ -1,0 +1,6 @@
+Concept RGMatrix - A programming language focusing solely on matrixes
+(Red, GREEN, Matrix) { alpha releases. RMatrix, beta releases: RGMatrix, full releases: update RGBMatrix: code blue }
+
+The community and its posts will contain references to the Sci-Fi Matrix movie and game series.
+
+There will be a game physics engine known as "String theory" which is based on the Matrix String Theory.

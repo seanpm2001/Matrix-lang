@@ -1,0 +1,30 @@
+# Matrixes in Matrix
+# This is the most important feature of the language. Everything will focus on this
+# In this program, aba is the test matrix variable
+# Start with this:
+aba = matrix(type="multi-line" line-count=3); # Make sure to remember the hyphens, the spacing doesn't matter too much
+# This is a multi-line Matrix. In this example, it is set to 3 lines
+aba.xset(0); {0 1 2}
+aba.xset(1); {1 2 3}
+aba.xset(2); {2 3 0}
+# You can put commas in the matrix parameters, but they are not required and will not change output
+""" Considering: commas can act as space toggles, a comma could mean to put spaces, no comma would mean to not put spaces """
+# xset is the value that sets the values of matrixes on a line of the matrix
+# Now for output
+aba.xout(0,2, exs=0);
+# The output will be:
+"""
+0 1 2
+1 2 3
+2 3 0
+"""
+# however, you can also choose to disclude spaces by doing it like this (add the exs=1 line, 1 means on, 0 means off) exs stands for EXclude Spaces
+aba.xout(0,2, exs=1);
+# The output will be:
+'''
+012
+123
+230
+'''
+# This is a mix of ranges and matrixes
+# This is just the basics of the Matrix command in the Matrix programming language

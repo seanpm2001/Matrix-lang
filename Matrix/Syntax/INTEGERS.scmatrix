@@ -1,0 +1,4 @@
+# Integers
+x = int(2)
+y = integer(2) # Both int and integer do the same thing
+z = (x + y) # Answer is 4
